@@ -2868,3 +2868,89 @@ button[type=submit]:hover {
 	background: #6F4DE1;
 	border: 0;
 }
+
+/*Mobile Responsive*/
+
+
+@media (max-width: 800px){
+    .control-text h1  {
+        font-size: 30px
+    }}
+
+@media (max-width: 990px){
+    .hero-text{
+        margin: 0 auto;
+        }
+    }
+
+
+@media (max-width: 990px){
+    .header-area:after{
+        background: linear-gradient(to right, #7156e0 0%, #86c9cf 100%)!important;
+    }}
+
+@media (max-width: 768px){
+    .mobile-left-7{
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 768px){
+    .mobile-left-8{
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 768px){
+    .mobile-left-14{
+        margin-left: 14%;
+    }
+}
+
+@media (max-width: 768px){
+    .mobile-left-15{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 768px){
+    .explore-info h1{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .explore-info h6{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991px){
+    .row-nowrap{
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 991px){
+    .container{
+        padding-top: 6%
+    }
+}
+
+@media (max-width: 768px){
+    .single-plan-box{
+        width: 100%
+    }
+}
+
+
+@media (max-width: 768px){
+    .single-explore-box{
+        width: 100%
+    }
+}
+
+
+
+
