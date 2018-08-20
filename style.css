@@ -2995,6 +2995,34 @@ button[type=submit]:hover {
     }
 }
 
+@media (max-width: 768px){
+    .single-plan-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .single-explore-box-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .single-assess-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .single-home-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 @media (max-width: 520px){
     .single-plan-box ul  {
         font-size: 18px;
@@ -3026,8 +3054,21 @@ button[type=submit]:hover {
     }
 }
 
-@media (max-width: 520px){
-    .single-plan-box h3 .single-home-box h3 .single-explore-box h3 {
-        font-size: 22px;
+@media (max-width: 677px){
+    div.hero-text{
+        width: 100%
+    }
+}
+
+
+@media (max-width: 677px){
+    .hero-text h4{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 677px){
+    .top-title h1{
+        font-size: 30px;
     }
 }
