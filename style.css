@@ -1967,6 +1967,7 @@ a.scroll-down:hover {
 	margin-bottom: 30px
 }
 
+
 .single-home-box ul {
 	font-size: 20px;
 	color: #9fa4af;
@@ -1980,6 +1981,21 @@ a.scroll-down:hover {
 	display: inline;
 	margin-left: 130px;
 }
+
+@media (max-width: 1199px){
+    .single-home-box ul li{
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 991px){
+    .single-home-box ul li{
+        display: flex;
+        margin-left: 40px;
+    }
+}
+
+
 
 .single-home-box h3 {
 	font-size: 25px;
@@ -2027,6 +2043,7 @@ a.scroll-down:hover {
 }
 
 .single-plan-box ul {
+    list-style-type: none!important;
 	font-size: 20px;
 	text-align: left;
 	margin: 40px 20px 0px;
@@ -2938,19 +2955,73 @@ button[type=submit]:hover {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 991px){
     .single-plan-box{
         width: 100%
     }
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 991px){
     .single-explore-box{
         width: 100%
     }
 }
 
+@media (max-width: 1199px){
+    .padding-0{
+        padding: 0px;
+    }
+}
 
 
+@media (max-width: 600px){
+    .mob-margin-40 {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
 
+
+@media (max-width: 600px){
+    .mob-padding-20 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 520px){
+    .single-plan-box ul  {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 520px){
+    .single-home-box ul  {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 520px){
+   .single-explore-box ul {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 520px){
+    .single-assess-box ul {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 520px){
+    .single-plan-box p .single-home-box p .single-explore-box p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 520px){
+    .single-plan-box h3 .single-home-box h3 .single-explore-box h3 {
+        font-size: 22px;
+    }
+}
