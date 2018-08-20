@@ -1682,6 +1682,12 @@ a.scroll-down:hover {
 	z-index: 3;
 }
 
+.feature-page video{
+	display: block;
+	position: relative;
+	max-width: 100%;
+}
+
 .feature-page:after {
 	position: absolute;
 	top: 0;
