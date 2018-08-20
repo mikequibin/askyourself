@@ -1666,6 +1666,18 @@ a.scroll-down:hover {
 	height: 710px;
 }
 
+@media (max-width: 990px){
+	.feature-page.header-area {
+		height: 520px;
+		}
+	}
+
+@media (max-width: 700px){
+	.feature-page.header-area {
+		height: 350px;
+		}
+	}
+
 .feature-page .hero-text-wrapper {
 	height: 610px;
 }
@@ -2292,6 +2304,52 @@ a.price-btn:hover {
 	background-image: url(./assets/img/pricing/pricing-footer.jpg);
 	height: 530px;
 }
+
+@media (max-width: 990px){
+    .pricing.control-bg{
+		margin-top: 80%;
+		height: 765px;
+    }
+}
+
+@media (max-width: 770px){
+    .pricing.control-bg{
+		margin-top: 90%;
+		height: 925px;
+    }
+}
+
+@media (max-width: 660px){
+    .pricing.control-bg{
+		margin-top: 100%;
+    }
+}
+
+@media (max-width: 540px){
+    .pricing.control-bg{
+		height: 925px;
+    }
+}
+
+@media (max-width: 490px){
+    .pricing.control-bg{
+		margin-top: 210%;
+    }
+}
+
+@media (max-width: 490px){
+    .pricing.control-bg{
+		margin-top: 210%;
+    }
+}
+
+
+@media (max-width: 490px){
+.feature-page.header-area {
+    height: 225px;
+}}
+
+
 
 .pricing .control-text {
 	margin-top: 160px
@@ -2935,6 +2993,18 @@ button[type=submit]:hover {
 @media (max-width: 991px){
     .row-nowrap{
         flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 770px){
+    .row-nowrap-mobile{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 770px){
+    .col-lg-7-mobile{
+        display:none;
     }
 }
 
