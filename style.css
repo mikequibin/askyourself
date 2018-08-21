@@ -1690,13 +1690,31 @@ a.scroll-down:hover {
 
 /*Features Style*/
 
-.feature-page.header-area {
+.feature-page.header-area-home {
 	background-image: none;
 }
 
-.feature-page.header-area {
+.feature-page.header-area-home {
 	height: 710px;
 }
+
+@media (max-width: 990px){
+	.feature-page.header-area-home {
+		height: 520px;
+		}
+	}
+
+@media (max-width: 768px){
+    .feature-page.header-area-home {
+        height: 437px;
+    }
+}
+
+@media (max-width: 700px){
+	.feature-page.header-area-home {
+		height: 350px;
+		}
+	}
 
 .feature-page .hero-text-wrapper {
 	height: 610px;
@@ -1878,10 +1896,15 @@ a.scroll-down:hover {
     margin-bottom: 50px;
 }
 
+@media (max-width: 768px){
+    .socit-info {
+        margin-left: 9%;}}
+
 .socit-info p {
 	color: #9fa4af;
 	line-height: 23px;
 }
+
 
 .socit-info h1 {
     color: #4f4f6f;
@@ -1901,6 +1924,10 @@ a.scroll-down:hover {
     text-transform: uppercase;
 }
 
+@media (max-width: 768px){
+    .socit-info h2 {
+        font-size: 14px;}}
+
 .socit-info h6 {
 	color: #9fa4af;
 	font-size: 19px;
@@ -1909,6 +1936,10 @@ a.scroll-down:hover {
 	text-transform: uppercase;
 	line-height: 22px;
 }
+
+@media (max-width: 768px){
+    .socit-info h6 {
+        font-size: 14px;}}
 
 .explore-socit {
   position: relative;
@@ -1929,6 +1960,12 @@ a.scroll-down:hover {
 	padding: 50px 0;
 	height: 100%;
 }
+@media (max-width: 768px){
+    .socit-section{
+        padding: 95px 0;
+    }
+}
+
 
 .single-bsemcom-box {
 	text-align: center;
@@ -2325,6 +2362,12 @@ a.price-btn:hover {
 	transition: 0.5s
 }
 
+@media (max-width: 590px){
+    .single-price-box {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;}}
+
 .single-price-box:hover {
 	border: 1px solid transparent;
 	box-shadow: 0 0 75px 0px #ddd;
@@ -2341,6 +2384,52 @@ a.price-btn:hover {
 	background-image: url(./assets/img/pricing/pricing-footer.jpg);
 	height: 530px;
 }
+
+@media (max-width: 990px){
+    .pricing.control-bg{
+		margin-top: 80%;
+		height: 765px;
+    }
+}
+
+@media (max-width: 770px){
+    .pricing.control-bg{
+		margin-top: 90%;
+		height: 925px;
+    }
+}
+
+@media (max-width: 660px){
+    .pricing.control-bg{
+		margin-top: 100%;
+    }
+}
+
+@media (max-width: 540px){
+    .pricing.control-bg{
+		height: 925px;
+    }
+}
+
+@media (max-width: 490px){
+    .pricing.control-bg{
+		margin-top: 210%;
+    }
+}
+
+@media (max-width: 490px){
+    .pricing.control-bg{
+		margin-top: 210%;
+    }
+}
+
+
+@media (max-width: 490px){
+.feature-page.header-area-home {
+    height: 225px;
+}}
+
+
 
 .pricing .control-text {
 	margin-top: 160px
@@ -2988,8 +3077,14 @@ button[type=submit]:hover {
 }
 
 @media (max-width: 770px){
-    .wrap{
+    .row-nowrap-mobile{
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 770px){
+    .col-lg-7-mobile{
+        display:none;
     }
 }
 
